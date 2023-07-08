@@ -39,6 +39,9 @@ body {
   color: #fd6e0a;
   background: none;
 }
+.banner .profile-pic {
+  width: 300px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -55,17 +58,17 @@ nav a {
 }
 header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-size: 50%,5%;
+  background-position: bottom right, left;
 }
 .banner {
-  padding: 0px 5px 0px 150px;
+  padding: 0px 0px 0px 150px;
   display: flex;
   align-items: center;
-}
-.banner .profile-Pic {
-  width: 400px;
+  justify-content: space-between;
 }
 .bannerToptext {
   color: #474747;
