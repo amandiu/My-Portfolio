@@ -141,10 +141,98 @@ header {
 }
 .whatIdo {
   border-radius: 5px;
-  
-  background: #f97cef;
+  margin-right: 10px;
+  background: #ffffff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  width: 267px;
-  height: 377px;
+  flex: 4;
   flex-shrink: 0;
+  padding: 50px 33px 30px 33px;
+}
+.whatIdoimage {
+  margin-top: -25px;
+}
+.MySkill {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 130px;
+  align-items: center;
+}
+.MySkillhead {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #474747;
+}
+.MySkillbodyhed {
+  color: #474747;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.MySkillbodytitle {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.MySkillbody {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.under {
+  height: 1px;
+  width: 90%;
+  background-color: #757575;
+}
+.bottomButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px 0px 0px;
+}
+.iconeStyle {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #fd6e0a;
+  padding: 0px 5px 0px 1px;
+}
+.Icons {
+  display: flex;
+}
+#Input {
+  border-radius: 5px;
+  background: #fff;
+  width: 461px;
+  margin: 10px;
+  height: 50px;
+  border: none;
+  padding: 0px 0px 0px 20px;
+  flex-shrink: 0;
+}
+.Footer {
+  margin-top: 50px;
+  background: #fff8f3;
+}
+#InputComm {
+  border-radius: 5px;
+  background: #fff;
+  width: 461px;
+  margin: 10px;
+  border: none;
+  padding: 15px 0px 100px 20px;
+  flex-shrink: 0;
+}
+.footerButton{
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
 }
